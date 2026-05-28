@@ -1,0 +1,41 @@
+.sobre-container {
+  display: flex;
+  gap: 40px;
+  max-width: 900px;
+  background: rgba(255, 255, 255, 0.25);
+  padding: 40px;
+  border-radius: 15px;
+  backdrop-filter: blur(5px);
+  align-items: center;
+}
+
+.sobre-foto img {
+  width: 300px;
+  height: 400px;
+  object-fit: cover;
+  border-radius: 10px;
+  border: 4px solid #fff;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+.sobre-credenciais {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.sobre-credenciais h2 {
+  font-size: 2.2rem;
+  color: #164032;
+  margin: 0;
+}
+
+.sobre-credenciais p {
+  font-size: 1.1rem;
+  margin: 0;
+}
+
+.sobre-texto {
+  line-height: 1.6;
+  margin-top: 10px !important;
+}

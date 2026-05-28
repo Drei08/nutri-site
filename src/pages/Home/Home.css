@@ -1,0 +1,19 @@
+.home-container {
+  text-align: center;
+  max-width: 800px;
+  padding: 40px;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 15px;
+  backdrop-filter: blur(5px);
+}
+
+.home-container h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+  color: #164032;
+}
+
+.home-container p {
+  font-size: 1.3rem;
+  line-height: 1.6;
+}
