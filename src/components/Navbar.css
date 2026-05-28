@@ -1,0 +1,37 @@
+/* Alinha a lista inteira ao centro da tela */
+.menu-nav {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+/* Move o Flexbox para a UL para colocar os itens um do lado do outro */
+.menu-nav ul {
+  display: flex;
+  justify-content: center;
+  gap: 20px;         /* Espaçamento entre um botão e outro */
+  list-style: none;  /* Remove as bolinhas pretas da lista */
+  padding: 0;
+  margin: 20px 0;    /* Espaço em cima e embaixo do menu */
+}
+
+/* Mantém o visual bonito que você já criou para as tags de link */
+.menu-nav a {
+  text-decoration: none; 
+  background: none;
+  border: none;
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #1a3a32;
+  cursor: pointer;
+  padding: 8px 16px;
+  border-radius: 20px;
+  transition: all 0.3s ease;
+}
+
+/* Efeito de hover e página ativa */
+.menu-nav a:hover, 
+.menu-nav a.active {
+  background-color: #2e8b57;
+  color: #ffffff;
+}

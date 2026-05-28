@@ -1,10 +1,8 @@
 .contato-container {
   display: flex;
   gap: 40px;
-  /* Aumentado para 90% para dar o efeito de tela bem cheia na horizontal */
   width: 90%; 
-  max-width: 1000px; 
-  /* Mantém um teto na altura total para o container não encostar no footer */
+  max-width: 900px; 
   max-height: 75vh;
   background: rgba(255, 255, 255, 0.25);
   padding: 20px 35px;
@@ -17,13 +15,12 @@
 .contato-coluna-esquerda {
   display: flex;
   flex-direction: column;
-  gap: 15px; /* Reduzido de 20px para 15px */
+  gap: 15px;
   align-items: center;
   flex-shrink: 0;
 }
 
 .contato-foto {
-  /* Diminuído ligeiramente de 280px para 220px para harmonizar com a altura compacta */
   width: 220px;
   height: 220px;
   object-fit: cover;
@@ -33,35 +30,35 @@
 }
 
 .whatsapp-btn {
-  background-color: #25d366;
+  background-color: #164032;
   color: white;
   text-decoration: none;
   font-weight: bold;
-  padding: 10px 20px; /* Mais compacto */
+  padding: 10px 20px;
   border-radius: 25px;
   box-shadow: 0 4px 10px rgba(37, 211, 102, 0.3);
   transition: background 0.3s;
   text-align: center;
-  width: 100%;
+  width: 60%;
   font-size: 0.95rem;
 }
 
 .whatsapp-btn:hover {
-  background-color: #1ebd58;
+  background-color: #25d366;
 }
 
 .contato-form-nav {
-  flex: 1.2; /* Ajustado para dividir o espaço de forma mais equilibrada */
+  flex: 1; 
+  max-width: 580px;
   background: rgba(255, 255, 255, 0.5);
-  padding: 15px 25px; /* Menos padding vertical para não estourar */
+  padding: 10px 30px;
   border-radius: 10px;
   box-shadow: 0 4px 10px rgba(0,0,0,0.05);
-  /* REMOVIDO o height: 65vh fixo! Agora o fundo acompanha o conteúdo */
 }
 
 .contato-form-nav h3 {
   margin-top: 0;
-  margin-bottom: 12px; /* Menos margem abaixo do título */
+  margin-bottom: 12px;
   color: #164032;
   font-size: 1.35rem;
   text-align: center;
@@ -70,18 +67,19 @@
 .form-group {
   display: flex;
   flex-direction: column;
-  gap: 2px; /* Reduzido de 5px para 2px para grudar o label no input */
-  margin-bottom: 8px; /* Reduzido de 15px para 8px para achatar o form */
+  gap: 2px;
+  margin-bottom: 8px;
 }
 
 .form-group label {
+  margin-top: px;
   font-weight: 600;
-  font-size: 0.85rem; /* Fonte um pouquinho menor para economizar espaço */
+  font-size: 0.85rem;
   color: #164032;
 }
 
 .form-group input, .form-group textarea {
-  padding: 6px 12px; /* Diminuído o estufamento dos inputs de 10px para 6px */
+  padding: 6px 12px;
   border: 1px solid rgba(46, 139, 87, 0.4);
   border-radius: 5px;
   background-color: rgba(255, 255, 255, 0.8);
@@ -90,7 +88,7 @@
 }
 
 .form-group textarea {
-  resize: none; /* Trava o usuário de arrastar e estragar o design */
+  resize: none;
 }
 
 .form-group input:focus, .form-group textarea:focus {
@@ -103,16 +101,17 @@
   background-color: #164032;
   color: white;
   border: none;
-  padding: 10px; /* Reduzido levemente */
+  padding: 10px;
   border-radius: 5px;
   font-weight: bold;
   cursor: pointer;
-  width: 100%;
+  width: 45%;
   transition: background 0.3s;
-  margin-top: 5px; /* Garante um espacinho seguro antes do botão */
   font-size: 0.95rem;
+  display: block;
+  margin: 20px auto;
 }
 
 .envio-btn:hover {
-  background-color: #2e8b57;
+  background-color: #25d366;
 }

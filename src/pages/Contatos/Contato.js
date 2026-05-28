@@ -11,7 +11,7 @@ const Contato = () => {
         
         {/* Link Âncora para o WhatsApp */}
         <a href="https://wa.me/5518999999999" target="_blank" rel="noopener noreferrer" className="whatsapp-btn">
-          Fale Comigo no WhatsApp
+          WhatsApp
         </a>
       </div>
 
@@ -26,17 +26,17 @@ const Contato = () => {
 
           <div className="form-group">
             <label>Telefone:</label>
-            <input type="tel" placeholder="(18) 99999-9999" required />
+            <input type="tel" placeholder="(00) 00000-0000" required />
           </div>
 
           <div className="form-group">
             <label>Email:</label>
-            <input type="email" placeholder="seuemail@exemplo.com" required />
+            <input type="email" placeholder="Digite seu email" required />
           </div>
 
           <div className="form-group">
             <label>Mensagem:</label>
-            <textarea rows="2" placeholder="Como posso te ajudar?" required></textarea>
+            <textarea rows="5" placeholder="Como posso te ajudar?" required></textarea>
           </div>
 
           <button type="submit" className="envio-btn">Enviar Mensagem</button>

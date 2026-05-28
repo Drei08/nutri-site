@@ -6,7 +6,6 @@ const SobreMin = () => {
   return (
     <div className="sobre-container">
       <div className="sobre-foto">
-        {/* Substitua o src pela sua imagem local ou URL correspondente */}
         <img src={amandaJalecoImg} alt="" />
       </div>
       <nav className="sobre-credenciais">
