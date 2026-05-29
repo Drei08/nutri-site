@@ -1,4 +1,4 @@
-/* Alinha a lista inteira ao centro da tela */
+/* Alinha a lista inteira ao centro da tela
 .menu-nav {
   display: flex;
   justify-content: center;
@@ -6,17 +6,17 @@
 }
 
 /* Move o Flexbox para a UL para colocar os itens um do lado do outro */
-.menu-nav ul {
+/* .menu-nav ul {
   display: flex;
   justify-content: center;
-  gap: 20px;         /* Espaçamento entre um botão e outro */
-  list-style: none;  /* Remove as bolinhas pretas da lista */
+  gap: 20px;         
+  list-style: none;  
   padding: 0;
-  margin: 20px 0;    /* Espaço em cima e embaixo do menu */
-}
+  margin: 20px 0;   
+} */
 
 /* Mantém o visual bonito que você já criou para as tags de link */
-.menu-nav a {
+/* .menu-nav a {
   text-decoration: none; 
   background: none;
   border: none;
@@ -27,11 +27,65 @@
   padding: 8px 16px;
   border-radius: 20px;
   transition: all 0.3s ease;
-}
+} */
 
 /* Efeito de hover e página ativa */
-.menu-nav a:hover, 
+/* .menu-nav a:hover, 
 .menu-nav a.active {
   background-color: #2e8b57;
   color: #ffffff;
+}
+ */ 
+
+
+
+
+
+/* NAV MINIBLOG */
+
+
+.navbar {
+  display: flex;
+  box-shadow: rgba(0, 0, 0, .15) 0px -2px 10px 0px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5em 3em;
+}
+
+.brand {
+  font-size: 1.3em;
+  color: #164032;
+  font-weight: 900;
+  text-decoration: none;
+}
+
+.brand span {
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.links_list {
+  display: flex;
+  list-style: none;
+}
+
+.links_list li {
+  margin-right: 1.5em;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+.links_list li a {
+ padding: .4em .6em;
+ color: #164032;
+ text-decoration: none;
+ border-radius: 5px;
+} 
+
+.navbar a:hover, 
+.navbar a.active {
+
+  background-color: #164032;
+  color: #fff;
+
 }

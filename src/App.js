@@ -16,7 +16,6 @@ const App = () => {
     <div className="app-container">
       <BrowserRouter>
         <Navbar />
-        
         <div className="app-content">
           <Routes>
             <Route path="/" element={<Home />} />
@@ -25,7 +24,6 @@ const App = () => {
             <Route path="/contato" element={<Contato />} />
           </Routes>
         </div>
-
         <Footer />
       </BrowserRouter>
     </div>

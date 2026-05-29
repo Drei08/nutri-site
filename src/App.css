@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+html, body {
+  overflow: hidden; /* Desativa completamente as barras de rolagem globais */
+}
+
 .app-container {
   min-height: 100vh;
   display: flex;
@@ -54,14 +58,5 @@
   justify-content: center;
   align-items: center;
   padding: 20px;
-  overflow: auto
-}
-
-.app-footer {
-  background-color: rgba(26, 58, 50, 0.9);
-  color: #ffffff;
-  text-align: center;
-  padding: 15px;
-  font-size: 0.9rem;
-  flex-shrink: 0;
+  overflow: auto;
 }

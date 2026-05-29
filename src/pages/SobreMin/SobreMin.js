@@ -10,10 +10,10 @@ const SobreMin = () => {
       </div>
       <nav className="sobre-credenciais">
         <h2>Minha Trajetória</h2>
-        <p><strong>Credencial:</strong> Nutricionista Clínica CRN-XXXX</p>
+        <p className="sobre-texto"><strong>Credencial:</strong> Nutricionista Clínica <strong>CRN-XXXX</strong></p>
+        <p><strong>Graduação:</strong> Desde 2020 ajudando pacientes a alcançarem sua melhor versão física e mental.</p>
         <p><strong>Tempo de Atuação:</strong> Desde 2020 ajudando pacientes a alcançarem sua melhor versão física e mental.</p>
-        <p className="sobre-texto">
-          Especializada em nutrição comportamental e esportiva, utilizo a ciência aliada à empatia para criar planos que se encaixam na sua rotina real, sem terrorismos nutricionais.
+        <p><strong>Especialização:</strong> Especializada em nutrição comportamental e esportiva, utilizo a ciência aliada à empatia para criar planos que se encaixam na sua rotina real, sem terrorismos nutricionais.
         </p>
       </nav>
     </div>

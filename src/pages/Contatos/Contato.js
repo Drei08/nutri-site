@@ -36,7 +36,7 @@ const Contato = () => {
 
           <div className="form-group">
             <label>Mensagem:</label>
-            <textarea rows="5" placeholder="Como posso te ajudar?" required></textarea>
+            <textarea rows="3" placeholder="Como posso te ajudar?" required></textarea>
           </div>
 
           <button type="submit" className="envio-btn">Enviar Mensagem</button>

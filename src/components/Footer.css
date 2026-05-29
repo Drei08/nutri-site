@@ -2,7 +2,8 @@
   background-color: rgba(26, 58, 50, 0.9);
   color: #ffffff;
   text-align: center;
-  padding: 25px;
+  padding: 15px;
   font-size: 0.9rem;
   flex-shrink: 0; /* Impede o rodapé de encolher */
 }
+

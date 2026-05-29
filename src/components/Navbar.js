@@ -4,8 +4,11 @@ import './Navbar.css';
 
 const Navbar = () => {
   return (
-  <nav className="menu-nav">
-    <ul>
+  <nav className="navbar">
+    <NavLink to="/" className="brand">
+    AMANDA <span>Santos</span>
+    </NavLink>
+    <ul className="links_list">
       <li>
         <NavLink to="/" className={({ isActive }) => (isActive ? 'active' : '')}>
         Home

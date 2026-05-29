@@ -4,7 +4,7 @@ import './Especialidades.css';
 const Especialidades = () => {
   return (
     <div className="especialidades-container">
-      <h2>Minhas Especialidades</h2>
+      <h2>Especialidades</h2>
       
       <div className="nav-grid">
         {/* Nav 1: Dieta */}
@@ -18,7 +18,7 @@ const Especialidades = () => {
         <nav className="especialidade-card">
           <img src="https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=300" alt="Alimentação Saudável" />
           <h3>Alimentação Saudável</h3>
-          <p>Foco em reeducação alimentar duradoura para melhora de exames, longevidade, disposição e bem-estar geral.</p>
+          <p>Foco em reeducação alimentar duradoura para melhora de exames, longevidade, disposição e bem-estar geral asdasdasdasdsa asdasdasdas.</p>
         </nav>
 
         {/* Nav 3: Treino de Academia */}

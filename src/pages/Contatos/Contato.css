@@ -1,9 +1,9 @@
 .contato-container {
   display: flex;
   gap: 40px;
-  width: 90%; 
+  width: 70%; 
   max-width: 900px; 
-  max-height: 75vh;
+  max-height: 70vh;
   background: rgba(255, 255, 255, 0.25);
   padding: 20px 35px;
   border-radius: 15px;
@@ -25,17 +25,18 @@
   height: 220px;
   object-fit: cover;
   border-radius: 50%;
-  border: 4px solid #fff;
+  border: 2px solid #fff;
   box-shadow: 0 4px 15px rgba(0,0,0,0.1);
 }
 
 .whatsapp-btn {
-  background-color: #164032;
-  color: white;
+  background-color: #FFF;
+  color: #164032;
+  border: #cdcfcd solid 2px;
   text-decoration: none;
   font-weight: bold;
-  padding: 10px 20px;
-  border-radius: 25px;
+  padding: 5px;
+  border-radius: 10px;
   box-shadow: 0 4px 10px rgba(37, 211, 102, 0.3);
   transition: background 0.3s;
   text-align: center;
@@ -44,20 +45,21 @@
 }
 
 .whatsapp-btn:hover {
-  background-color: #25d366;
+  background-color: #164032;
+    color:#FFF;
 }
 
 .contato-form-nav {
   flex: 1; 
-  max-width: 580px;
+  max-width: 600px;
   background: rgba(255, 255, 255, 0.5);
-  padding: 10px 30px;
+  padding: 0.10px 20px;
   border-radius: 10px;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+  box-shadow: 0 4px 5px rgba(0,0,0,0.05);
 }
 
 .contato-form-nav h3 {
-  margin-top: 0;
+  margin-top: 0.1em;
   margin-bottom: 12px;
   color: #164032;
   font-size: 1.35rem;
@@ -72,7 +74,7 @@
 }
 
 .form-group label {
-  margin-top: px;
+  margin-top: -10px;
   font-weight: 600;
   font-size: 0.85rem;
   color: #164032;
@@ -93,25 +95,32 @@
 
 .form-group input:focus, .form-group textarea:focus {
   outline: none;
-  border-color: #2e8b57;
+  border-color: #164032;
   background-color: #fff;
 }
 
 .envio-btn {
-  background-color: #164032;
-  color: white;
-  border: none;
-  padding: 10px;
+  background-color: #FFF;
+  color: #164032;
+  border: #cdcfcd solid 2px;
+  padding: 5px;
   border-radius: 5px;
   font-weight: bold;
   cursor: pointer;
-  width: 45%;
+  width: 35%;
   transition: background 0.3s;
   font-size: 0.95rem;
   display: block;
   margin: 20px auto;
 }
 
+.envio-btn:focus,
+.envio-btn:focus-visible{
+  outline: none;
+  border-color: #164032;
+}
+
 .envio-btn:hover {
-  background-color: #25d366;
+  background-color: #164032;
+  color:#FFF
 }
