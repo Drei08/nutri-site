@@ -20,20 +20,30 @@
 }
 
 .sobre-credenciais {
-  margin-top: -7em;
+  margin-top: -0.5em;
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 6px;
 }
 
 .sobre-credenciais h2 {
-  font-size: 1.5rem;
+  font-size: 1.3em;
   color: #164032;
 }
 
 .sobre-credenciais p {
   font-size: 1rem;
   margin: 0;
+}
+
+.sobre-credenciais a{
+  color:#164032
+}
+
+.sobre-credenciais a:hover{
+  text-decoration: none;
+  color:#fff;
+  opacity: 0.8;
 }
 
 .sobre-texto {
