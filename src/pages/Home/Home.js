@@ -1,6 +1,6 @@
 import React from 'react';
 import './Home.css';
-import fotoNutri from "../../assets/jaleco.png";
+import fotoNutri from "../../assets/home.png";
 
 const Home = () => {
   return (

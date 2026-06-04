@@ -1,25 +1,37 @@
 .especialidades-container {
   width: 100%;
-  max-width: 1200px;
+  max-width: 1300px;
+  margin: 0 auto;
   text-align: center;
+  padding: 20px auto;
 }
 
+
 .especialidades-container h2 {
-  font-size: 1.8rem;
+  font-size: 1.5rem;
   text-transform: uppercase;
   margin-bottom: 20px;
   color: #164032;
 }
 
-.nav-grid {
+/* .nav-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 30px;
+} */
+
+.nav-grid {
+  width: 100%;
+  max-width: 1300px;
+  display: grid;
+  /* Força o grid a ter exatamente duas colunas de tamanhos iguais (1fr cada) */
+  grid-template-columns: repeat(4, 1fr); 
+  gap: 20px;
 }
 
 .especialidade-card {
   background: rgba(255, 255, 255, 0.3);
-  padding: 25px;
+  padding: 20px;
   border-radius: 15px;
   backdrop-filter: blur(5px);
   box-shadow: 0 4px 10px rgba(0,0,0,0.05);
@@ -29,9 +41,10 @@
   transition: transform 0.3s ease;
 }
 
-/* .especialidade-card:hover {
+.especialidade-card:hover {
   transform: translateY(-5px);
-} */
+  cursor: pointer;
+}
 
 .especialidade-card img {
   width: 90%;
@@ -52,4 +65,15 @@
   margin-top: 10px;
   font-size: 1rem;
   line-height: 1.5;
+}
+
+
+
+
+/* Quando a tela for menor que 768px (tamanho padrão de celular/tablet) */
+@media (max-width: 768px) {
+  .nav-grid {
+    grid-template-columns: 1fr; /* Volta para 1 coluna só */
+    gap: 20px;
+  }
 }

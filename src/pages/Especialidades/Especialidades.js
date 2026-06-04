@@ -3,31 +3,45 @@ import './Especialidades.css';
 
 const Especialidades = () => {
   return (
+    
     <div className="especialidades-container">
       <h2>Especialidades</h2>
-      
       <div className="nav-grid">
-        {/* Nav 1: Dieta */}
+         {/* Nav 1: DCNTs */}
         <nav className="especialidade-card">
-          <img src="https://images.unsplash.com/photo-1490645935967-10de6ba17061?w=300" alt="Dieta Personalizada" />
-          <h3>Planejamento de Dieta</h3>
-          <p>Planos alimentares totalmente individualizados baseados na sua rotina, preferências e exames bioquímicos.</p>
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRuJyOK7AK3m2jKRq5Igdd0A2yUdCY1FCdvvA&s" alt="Treino de Academia" />
+          <h3>Nutrição DCNTs</h3>
+          <p>Controle de regulação metabólica para pessoas diabéticas, 
+            com hipertensão, obesidade, 
+            doenças cardiovasculares e câncer.
+          </p>
         </nav>
-
-        {/* Nav 2: Alimentação Saudável */}
+        {/* Nav 2: Dieta */}
         <nav className="especialidade-card">
-          <img src="https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=300" alt="Alimentação Saudável" />
-          <h3>Alimentação Saudável</h3>
-          <p>Foco em reeducação alimentar duradoura para melhora de exames, longevidade, disposição e bem-estar geral asdasdasdasdsa asdasdasdas.</p>
+          <img src="https://www.diananutricionista.com.br/wp-content/uploads/2022/09/Nutricao-Comportamental-Conheca-os-Seus-Beneficios.jpg" alt="Dieta Personalizada" />
+          <h3>Dieta Comportamental</h3>
+          <p>Reeducação alimentar, ajuda a diferenciar a fome física da fome emocional, 
+            comer por estresse, ansiedade ou tristeza.
+          </p>
         </nav>
-
-        {/* Nav 3: Treino de Academia */}
+        {/* Nav 3: Alimentação Saudável */}
         <nav className="especialidade-card">
-          <img src="https://images.unsplash.com/photo-1517838277536-f5f99be501cd?w=300" alt="Treino de Academia" />
-          <h3>Nutrição Esportiva (Treino)</h3>
-          <p>Estratégias de suplementação e alimentação focadas em hipertrofia, emagrecimento e ganho de rendimento na academia.</p>
+          <img src="https://jpimg.com.br/uploads/2022/11/dieta-pode-ser-benefica-ou-prejudicial-para-o-emagrecimento.jpg" alt="Alimentação Saudável" />
+          <h3>Dieta Emagrecimento</h3>
+          <p>Emagrecimento saudável e sustentável, 
+            focado em gastar mais calorias do que se consome, 
+            aliado à escolha de alimentos saudáveis.
+          </p>
         </nav>
-      </div>
+        {/* Nav 4: Treino de Academia */}
+        <nav className="especialidade-card">
+          <img src="https://vitat.com.br/wp-content/uploads/2023/02/cropped-hipertrofia-e-definicao.jpg" alt="Treino de Academia" />
+          <h3>Hipertrofia e Definição</h3>
+          <p>Ganho de massa muscular, 
+            consumir cerca de 300 a 500 calorias a mais do que você gasta por dia.
+          </p>
+        </nav>
+        </div>
     </div>
   );
 };

@@ -1,13 +1,24 @@
-import { NavLink } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
+
+import instragramIcon from '../assets/instagram.png';
+import whatsappIcon from '../assets/whatsapp.png';
 
 import './Navbar.css';
 
 const Navbar = () => {
   return (
   <nav className="navbar">
-    <NavLink to="/" className="brand">
+    <NavLink to="/contato" className="brand">
     AMANDA <span>Santos</span>
     </NavLink>
+    <div className="rede-social">
+      <a href="https://www.instagram.com/amanda.santos.nutri/" target="_blank" rel="noreferrer">
+        <img src={instragramIcon} alt="Instagram" />
+      </a>
+      <a href="https://wa.me/5518997958843" target="_blank" rel="noreferrer">
+        <img src={whatsappIcon} alt="WhatsApp" />
+      </a>
+    </div>
     <ul className="links_list">
       <li>
         <NavLink to="/" className={({ isActive }) => (isActive ? 'active' : '')}>

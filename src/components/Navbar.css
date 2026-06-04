@@ -52,6 +52,10 @@
   padding: 1.5em 3em;
 }
 
+.navbar img {
+  width: 40px;
+}
+
 .brand {
   font-size: 1.3em;
   color: #164032;
@@ -62,6 +66,15 @@
 .brand span {
   font-weight: 400;
   text-transform: uppercase;
+}
+
+.rede-social{
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  margin-right: auto;  /* Empurra a lista de links (Home, Sobre) para a direita */
+  margin-left: 3em;    /* Cria um espacinho perfeito entre o nome Amanda e o Ícone */
+  gap: 1.5em;             /* Cria um espaço entre os ícones do Instagram e WhatsApp */
 }
 
 .links_list {
