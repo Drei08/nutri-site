@@ -1,15 +1,32 @@
+.contato-page {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .contato-container {
   display: flex;
-  gap: 40px;
-  width: 70%; 
-  max-width: 900px; 
-  max-height: 70vh;
+  gap: 30px;
+  width: 80%; 
+  max-width: 750px; 
   background: rgba(255, 255, 255, 0.25);
-  padding: 20px 35px;
-  border-radius: 15px;
+  padding: -1px;
+  border-radius: 10px;
   backdrop-filter: blur(5px);
   align-items: center;
   box-sizing: border-box;
+}
+
+.title-contato h2 {
+  margin-top: -20px;  
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  color: #164032;
 }
 
 .contato-coluna-esquerda {
@@ -17,31 +34,32 @@
   flex-direction: column;
   gap: 15px;
   align-items: center;
-  flex-shrink: 0;
 }
 
 .contato-foto {
-  width: 220px;
-  height: 220px;
+  width: 200px;
+  height: 250px;
   object-fit: cover;
-  border-radius: 50%;
+  border-radius: 10%;
+  margin-left: 2em;
   border: 2px solid #fff;
   box-shadow: 0 4px 15px rgba(0,0,0,0.1);
 }
 
 .whatsapp-btn {
+  width: 50%;
+  text-align: center;
+  font-size: 0.95rem;
   background-color: #FFF;
   color: #164032;
   border: #cdcfcd solid 2px;
   text-decoration: none;
   font-weight: bold;
+  margin-left: 3em;
   padding: 5px;
   border-radius: 10px;
   box-shadow: 0 4px 10px rgba(37, 211, 102, 0.3);
   transition: background 0.3s;
-  text-align: center;
-  width: 60%;
-  font-size: 0.95rem;
 }
 
 .whatsapp-btn:hover {
@@ -51,18 +69,19 @@
 
 .contato-form-nav {
   flex: 1; 
-  max-width: 600px;
+  max-width: 500px;
   background: rgba(255, 255, 255, 0.5);
   padding: 0.10px 20px;
   border-radius: 10px;
   box-shadow: 0 4px 5px rgba(0,0,0,0.05);
+  border: 2px solid #fff;
 }
 
 .contato-form-nav h3 {
-  margin-top: 0.1em;
-  margin-bottom: 12px;
+  margin-top: 0.5em;
+  margin-bottom: 5px;
   color: #164032;
-  font-size: 1.35rem;
+  font-size: 1.3rem;
   text-align: center;
 }
 
@@ -70,7 +89,7 @@
   display: flex;
   flex-direction: column;
   gap: 2px;
-  margin-bottom: 8px;
+  margin-bottom: 15px;
 }
 
 .form-group label {
@@ -81,12 +100,14 @@
 }
 
 .form-group input, .form-group textarea {
-  padding: 6px 12px;
+  padding: 8px 12px;
   border: 1px solid rgba(46, 139, 87, 0.4);
   border-radius: 5px;
   background-color: rgba(255, 255, 255, 0.8);
   font-family: inherit;
   font-size: 0.9rem;
+  background-color: #FFF;
+  color: #000000
 }
 
 .form-group textarea {
@@ -95,8 +116,8 @@
 
 .form-group input:focus, .form-group textarea:focus {
   outline: none;
-  border-color: #164032;
-  background-color: #fff;
+  border-color: #6e9a82;
+  background-color: #C2DBCD;
 }
 
 .envio-btn {
@@ -107,11 +128,11 @@
   border-radius: 5px;
   font-weight: bold;
   cursor: pointer;
-  width: 35%;
+  width: 20%;
   transition: background 0.3s;
   font-size: 0.95rem;
   display: block;
-  margin: 20px auto;
+  margin: 15px auto;
 }
 
 .envio-btn:focus,

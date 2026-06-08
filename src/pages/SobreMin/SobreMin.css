@@ -1,12 +1,25 @@
 .sobre-container {
   width: 100%;
   display: flex;
-  gap: 40px;
-  max-width: 940px;
+  margin-top: 30px;
+  gap: 20px;
+  max-width: 1000px;
   background: rgba(255, 255, 255, 0.25);
   border-radius: 15px;
   backdrop-filter: blur(5px);
   align-items: center;
+  padding: 10px 10px;
+}
+
+.title-sobre h2 {
+  margin-top: -20px;  
+  margin-bottom: -15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  color: #164032;
 }
 
 .sobre-foto {
@@ -15,8 +28,8 @@
 }
 
 .sobre-foto img {
-  width: 300px;
-  height: 400px;
+  width: 250px;
+  height: 320px;
   object-fit: cover;
   border-radius: 10px;
   border: 2px solid #fff;
@@ -26,17 +39,17 @@
 .sobre-credenciais {
   display: flex;
   flex-direction: column;
-  gap: 6px;
+  gap: 2px;
 }
 
 .sobre-credenciais h2 {
-  font-size: 1.3em;
+  font-size: 1.5em;
   color: #164032;
 }
 
 .sobre-credenciais p {
   font-size: 1rem;
-  margin: 0;
+  margin: 1.5px;
 }
 
 .sobre-credenciais a{

@@ -8,11 +8,12 @@ import './Navbar.css';
 const Navbar = () => {
   return (
   <nav className="navbar">
-    <NavLink to="/contato" className="brand">
-    AMANDA <span>Santos</span>
-    </NavLink>
+    <div className="nome">
+    <h3>AMANDA <span>Santos</span></h3>
+    </div>
     <div className="rede-social">
-      <a href="https://www.instagram.com/amanda.santos.nutri/" target="_blank" rel="noreferrer">
+      <h3>REDE <span>Social</span></h3>
+      <a href="https://www.instagram.com/amandagsant0s?igsh=bDMwbnpmZ3M2djF3" target="_blank" rel="noreferrer">
         <img src={instragramIcon} alt="Instagram" />
       </a>
       <a href="https://wa.me/5518997958843" target="_blank" rel="noreferrer">
