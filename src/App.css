@@ -64,3 +64,30 @@ html, body {
   padding: 20px;
   overflow: hidden;
 }
+
+
+/* =============================
+   MEDIA QUERY - APP RESPONSIVO
+   ============================= */
+
+@media (max-width: 768px) {
+  html, body, .app-container {
+    height: auto;
+    overflow: auto; /* Libera a rolagem vertical essencial para o mobile */
+  }
+
+  .app-content {
+    overflow: auto;
+    padding: 10px;
+  }
+
+  .menu-nav {
+    gap: 10px; 
+    flex-wrap: wrap; /* Se não couber, os botões quebram linha em celulares muito pequenos */
+  }
+
+  .menu-nav button {
+    font-size: 0.9rem;
+    padding: 6px 12px;
+  }
+}

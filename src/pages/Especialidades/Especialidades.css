@@ -72,3 +72,29 @@
     gap: 20px;
   }
 }
+
+/* ========================================
+   MEDIA QUERY - ESPECIALIDADES RESPONSIVO
+   ======================================== */
+
+@media (max-width: 768px) {
+  .title-especialidades h2 {
+    margin-top: 0;
+    margin-bottom: 20px;
+  }
+
+  .nav-grid {
+    grid-template-columns: 1fr; /* Sua regra que já estava certa */
+    gap: 15px;
+  }
+
+  .especialidade-card img {
+    margin-bottom: 20px;
+    height: 180px;
+  }
+
+  .especialidade-card h3 {
+    margin-top: 0;
+    margin-bottom: 10px;
+  }
+}

@@ -15,9 +15,6 @@ const Contato = () => {
   const [email, setEmail] = useState('')
   const [message, setMessage] = useState('')
 
-  const isFormInvalid = name.trim() === '' || phone.trim() === '' 
-                      || email.trim() === '' || message.trim() === '';
-
   function handdleSubmit(event){
     event.preventDefault();
 
@@ -112,7 +109,7 @@ const Contato = () => {
               />
             </div>
             {/* envio-btn */}
-            <button type="submit" className="envio-btn" disabled={isFormInvalid}>Enviar</button>
+            <button type="submit" className="envio-btn">Enviar</button>
           </form>
         </nav>
       </div>

@@ -7,3 +7,14 @@
   flex-shrink: 0; /* Impede o rodapé de encolher */
 }
 
+/* ================================
+   MEDIA QUERY - FOOTER RESPONSIVO
+   ================================ */
+@media (max-width: 768px) {
+  .app-footer {
+    padding: 20px 10px;
+    font-size: 0.85rem;
+    line-height: 1.4;   /* Melhora o espaçamento de linhas caso o texto quebre */
+  }
+}
+

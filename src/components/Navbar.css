@@ -1,6 +1,6 @@
 .navbar {
   display: flex;
-  box-shadow: rgba(0, 0, 0, .15) 0px -2px 10px 0px;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px -2px 10px 0px;
   justify-content: space-between;
   align-items: center;
   padding: 1.5em 3em;
@@ -8,18 +8,6 @@
 
 .navbar img {
   width: 40px;
-}
-
-.brand {
-  font-size: 1.3em;
-  color: #164032;
-  font-weight: 900;
-  text-decoration: none;
-}
-
-.brand span {
-  font-weight: 400;
-  text-transform: uppercase;
 }
 
 .nome {
@@ -89,4 +77,41 @@
   background-color: #164032;
   color: #fff;
 
+}
+
+/* ========================================
+   MEDIA QUERY - NAVBAR RESPONSIVA (MOBILE)
+   ======================================== */
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    gap: 15px;       
+    padding: 1em;
+    text-align: center;
+  }
+
+  .rede-social {
+    margin: 0 auto;
+    gap: 1em;
+  }
+
+  .rede-social h3 {
+    font-size: 1.1em;
+  }
+
+  .links_list {
+    padding-left: 0;
+    justify-content: center;
+    flex-wrap: wrap;       /* Se tiver muitos links, eles quebram linha sem estourar a tela */
+    gap: 10px;
+  }
+
+  .links_list li {
+    margin-right: 0;
+  }
+
+  .links_list li a {
+    font-size: 0.9em;      /* Deixa os botões de clique ligeiramente menores */
+    padding: 0.5em 0.8em;  /* Aumenta a área de toque (bom para o dedo no celular) */
+  }
 }

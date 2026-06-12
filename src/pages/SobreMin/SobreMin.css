@@ -66,3 +66,32 @@
   line-height: 1.6;
   margin-top: 10px !important;
 }
+
+
+/* ===================================
+   MEDIA QUERY - SOBRE MIM RESPONSIVO
+   =================================== */
+
+@media (max-width: 768px) {
+  .sobre-container {
+    flex-direction: column; /* Foto fica em cima, credenciais embaixo */
+    padding: 20px 15px;
+    margin-top: 15px;
+    text-align: center;
+  }
+
+  .sobre-foto {
+    justify-content: center;
+    align-items: center;
+  }
+
+  .sobre-foto img {
+    width: 200px; /* Reduz ligeiramente o tamanho da foto no mobile */
+    height: 260px;
+  }
+
+  .title-sobre h2 {
+    margin-top: 0;
+    margin-bottom: 10px;
+  }
+}
